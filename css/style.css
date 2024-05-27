@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.calculadora-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imc-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.imc-form input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.imc-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.imc-form button {
+  padding: 10px;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.imc-form button:hover {
+  background: #45a049;
+}
+
+.container-main-calculadora-principal-saidas {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.resultado-imc-img {
+  width: 300px; /* Define a largura específica para a imagem do resultado */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 20px 0; /* Espaçamento ao redor da imagem */
+  border: 2px solid #4CAF50; /* Adiciona uma borda verde ao redor da imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  display: block; /* Garante que a imagem seja um bloco */
+  margin-left: auto;
+  margin-right: auto; /* Centraliza a imagem horizontalmente */
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.calculadora-section {
+  max-width: 400px; /* Reduzindo a largura máxima da seção da calculadora */
+  margin: 0 auto; /* Centralizando a calculadora na página */
+}
+
+.imc-form label {
+  display: inline-block; /* Mudando o comportamento do label para permitir alinhamento */
+  margin-bottom: 5px;
+}
+
+.imc-form input[type="radio"] {
+  margin: 0; /* Removendo a margem padrão dos botões de rádio */
+  vertical-align: middle; /* Alinhando verticalmente os botões de rádio */
+}
